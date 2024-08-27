@@ -1,4 +1,4 @@
-### Features
+<h3>Features</h3>
 
 - Este Encriptador de Texto tiene extension de comentarios que es 
 "Better Comments": https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
@@ -6,11 +6,11 @@
 - La mayoria de Imagenes son en .svg
 - Utiliza fuentes de letra externas a VS Code la fuente principal se llama "Inter": https://fonts.google.com/specimen/Inter?query=inter
 
-#Visualizacion del Proyecto
+<h1>Visualizacion del Proyecto</h1>
 
-#JS
+<h1>JS</h1>
 
-##Elementos del Encriptador de Texto
+<h2>Elementos del Encriptador de Texto</h2>
 
 ```
 const btnEncriptar = document.querySelector(".btnEncriptar");
@@ -23,7 +23,7 @@ const btnDesencriptar = document.querySelector(".btnDesencriptar");
 
 ```
 
-##Parte Inicial del Encriptador
+<h2>Parte Inicial del Encriptador</h2>
 
 ```
 	btnEncriptar.addEventListener("click", e=>{
@@ -32,7 +32,7 @@ const btnDesencriptar = document.querySelector(".btnDesencriptar");
     let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\u0300-\u036f']/g, "");
 ```
 
-##Parte Inicial del Desencriptador
+<h2>Parte Inicial del Desencriptador</h2>
 
 ```
 	btnDesencriptar.addEventListener("click", e=>{
@@ -41,7 +41,7 @@ const btnDesencriptar = document.querySelector(".btnDesencriptar");
     let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\ <:"`;,\u0300-\u036f']/g, "");
 ```
 
-##Copiado
+<h2>Copiado</h2>
 
 ```
 	btnCopiar.addEventListener("click", e=>{
@@ -51,8 +51,9 @@ const btnDesencriptar = document.querySelector(".btnDesencriptar");
     document.execCommand("copy"); 
     });
 ```
-#HTML5
-##Primera Seccion del HTML
+<h1>HTML5</h1>
+<h2>Primera Seccion del HTML</h2>
+
 ```
     <section class="encriptador">
 
@@ -70,8 +71,9 @@ const btnDesencriptar = document.querySelector(".btnDesencriptar");
 
         </section>
 ```
-#CSS
-#Importación de fuentes y Variables
+<h1>CSS</h1>
+<h2>Importación de fuentes y Variables</h2>
+	
 ```
 /**Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
