@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="https://www.aluracursos.com/" rel="">
+            <img src="./img/logo.svg" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+
+    <main>
+        <section class="encriptador">
+
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="encriptadorAlert">
+                <img src="./img/aviso.svg" alt="Imagen de Aviso" class="imgAlert">
+                <p class="textoAlert">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encriptadorContenedor">
+                <button type="submit" class="btnDesencriptar">Desencriptar</button>
+                <button type="submit" class="btnEncriptar">Encriptar</button>
+            </div>
+
+        </section>
+
+        <section class="box">
+
+           <div class="boxContenedor">
+                <img src="./img/fondo.gif" alt="Imagen Persona" class="imgPersona">
+                <p class="texto1">Ningún mensaje fue encontrado</p>
+                <p class="texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btnCopiar">Copiar</button>
+
+         </section>  
+    </main>
+
+    <footer>
+
+        <p class="copyright">&copy; copyright 2024 - Encriptador de Texto - Desarrollado por Yhogef Disla</p>
+        
+        <a href="https://www.linkedin.com" rel="">
+            <img src="./img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+
+        <a href="https://github.com/JalkAS" rel="">
+            <img src="./img/github.svg" alt="Logo Github" class="git">
+        </a>
+
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
